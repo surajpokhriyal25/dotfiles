@@ -46,3 +46,4 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
 fi
 
 source ~/dotfiles/zsh/prompt.sh
+alias mtr=/Users/spokhriyal/repos/mtr/mtr
