@@ -15,3 +15,4 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 export PATH=~/anaconda/bin:$PATH
 source ~/dotfiles/zsh/zshrc.sh
+export PATH="/Users/spokhriyal/.pyenv/shims:$PATH"
