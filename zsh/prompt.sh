@@ -47,6 +47,8 @@ set_prompt() {
 	PS1+="%{$fg[white]%}]: %{$reset_color%}% "
 }
 
+RPROMPT="%{$fg[blue]%}\$(~/.rvm/bin/rvm-prompt s i v g) %{$fg[yellow]%}[%*]%{$fg[default]%}"
+
 precmd_functions+=set_prompt
 
 preexec () {
